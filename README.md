@@ -6,7 +6,7 @@
 
 - 💬 ask me anything on Discord **thebigsoos**
 
-- 📫 How to reach me **yousef.abdelhadi@mail.utoronto.ca**
+- 📫 How to reach me **yousef.abdelhadi@utoronto.ca**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
