@@ -70,7 +70,7 @@
     <text class="mono mint type2" x="34" y="191" font-size="25">ML systems | infra tooling | computer vision</text>
 
     <text class="mono dim" x="34" y="236" font-size="20">$ ship --proof</text>
-    <text class="mono amber type3" x="34" y="270" font-size="25">profiler dashboards, telemetry AI, cloud copilots</text>
+    <text class="mono amber type3" x="34" y="270" font-size="25">systems with measurable behavior, not demos</text>
     <rect class="cursor" x="638" y="248" width="13" height="28" fill="#A7F3D0"/>
   </g>
 
@@ -85,8 +85,8 @@
     <rect class="pulse" x="0" y="0" width="92" height="34" rx="17" fill="#0F766E" opacity="0.7"/>
     <rect class="pulse" x="108" y="0" width="126" height="34" rx="17" fill="#0369A1" opacity="0.7"/>
     <rect class="pulse" x="250" y="0" width="126" height="34" rx="17" fill="#A16207" opacity="0.7"/>
-    <text class="mono bright" x="20" y="23" font-size="15">profile</text>
-    <text class="mono bright" x="130" y="23" font-size="15">projects</text>
-    <text class="mono bright" x="274" y="23" font-size="15">systems</text>
+    <text class="mono bright" x="25" y="23" font-size="15">ml</text>
+    <text class="mono bright" x="147" y="23" font-size="15">infra</text>
+    <text class="mono bright" x="281" y="23" font-size="15">vision</text>
   </g>
 </svg>
