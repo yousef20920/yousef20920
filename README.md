@@ -1,15 +1,25 @@
-<h1 align="center">Hi 👋, I'm Yousef Abdelhadi</h1>
-<h3 align="center">A passionate Software developer</h3>
-<img align="right" alt="Coding" width="400" src="https://gifdb.com/images/high/coding-animated-laptop-flow-stream-ja04010rm5o68zfk.gif">
+# Yousef Abdelhadi
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=yousef20920&label=Profile%20views&color=0e75b6&style=flat" alt="yousef20920" /> </p>
+I build practical software across machine learning systems, infrastructure tooling, computer vision, and full-stack products. My projects usually sit close to real workflows: telemetry analysis, ML profiling, hiring tools, wearable data, cloud infrastructure, and network security.
 
-- 💬 ask me anything on Discord **thebigsoos**
+## Focus
 
-- 📫 How to reach me **yousef.abdelhadi@utoronto.ca**
+- Machine learning systems: inference runtimes, profiling, anomaly detection, computer vision
+- Infrastructure and observability: telemetry pipelines, network analysis, cloud topology tooling
+- Product engineering: TypeScript and Python apps with clean workflows and usable interfaces
+- Systems work: C++, CUDA, Go, embedded hardware, and performance-oriented backends
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/yousef-abdelhadi/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/yousef-abdelhadi/" height="30" width="40" /></a>
-<a href="https://discord.gg/https://discord.gg/HkZymEJT" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/HkZymEJT" height="30" width="40" /></a>
-</p>
+## Featured Projects
+
+- [Flux](https://github.com/yousef20920/Flux-Hardware_Aware_ML_Profiler_Diagnostics): Local-first PyTorch profiler with Chrome Trace export, GPU diagnostics, and an interactive timeline dashboard.
+- [Cloud Telemetry Intelligence Platform](https://github.com/yousef20920/cloud-telemetry-intelligence-platform): ML platform for ingesting telemetry, detecting anomalies, forecasting regressions, and serving inference through an API.
+- [Autonomous Driving Perception & Tracking](https://github.com/yousef20920/autonomous-driving-perception-tracking-system): Real-time dashcam pipeline using YOLOv8, OpenCV, and multi-object tracking.
+- [TopNet](https://github.com/yousef20920/TopNet): Natural-language cloud infrastructure builder that turns plain-English requests into topology diagrams, validation, cost estimates, and Terraform plans.
+- [PathLine](https://github.com/yousef20920/PathLine): Internship application tracker and crowdsourced hiring-process intelligence platform.
+- [Wearable Live Dashboard](https://github.com/yousef20920/wearable-live-dashboard): Local BLE dashboard for streaming wearable heart-rate data from macOS into a browser.
+
+## Contact
+
+- Email: yousef.abdelhadi@utoronto.ca
+- LinkedIn: [yousef-abdelhadi](https://www.linkedin.com/in/yousef-abdelhadi/)
+- Discord: thebigsoos
