@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-console.svg" alt="Yousef Abdelhadi animated profile console" width="100%" />
+  <img src="./assets/profile-console.svg" alt="Yousef Abdelhadi profile banner" width="100%" />
 </p>
 
 <p align="center">
@@ -9,10 +9,8 @@
 </p>
 
 <p align="center">
-  <b>ML systems</b> / <b>infrastructure</b> / <b>computer vision</b> / <b>full-stack products</b>
+  I build ML systems, infrastructure tools, computer vision pipelines, and full-stack products.
 </p>
-
----
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python">

@@ -1,92 +1,57 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050816"/>
-      <stop offset="0.45" stop-color="#111827"/>
-      <stop offset="1" stop-color="#052E2B"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.56" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F2F2D"/>
     </linearGradient>
-    <linearGradient id="line" x1="170" y1="120" x2="1000" y2="330" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="764" y1="73" x2="1089" y2="228" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8"/>
-      <stop offset="0.5" stop-color="#A7F3D0"/>
-      <stop offset="1" stop-color="#FDE68A"/>
+      <stop offset="0.55" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#FBBF24"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
     <style>
-      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
       .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-      .dim { fill: #94A3B8; }
-      .bright { fill: #F8FAFC; }
-      .cyan { fill: #67E8F9; }
-      .mint { fill: #A7F3D0; }
-      .amber { fill: #FDE68A; }
-      .type1 { animation: type1 8s steps(48) infinite; }
-      .type2 { animation: type2 8s steps(58) infinite; }
-      .type3 { animation: type3 8s steps(54) infinite; }
-      .cursor { animation: blink 1s steps(1) infinite; }
-      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
-      .float { animation: float 5s ease-in-out infinite; }
-      .scan { animation: scan 4s linear infinite; }
-      @keyframes type1 { 0%, 8% { clip-path: inset(0 100% 0 0); } 22%, 100% { clip-path: inset(0 0 0 0); } }
-      @keyframes type2 { 0%, 24% { clip-path: inset(0 100% 0 0); } 42%, 100% { clip-path: inset(0 0 0 0); } }
-      @keyframes type3 { 0%, 44% { clip-path: inset(0 100% 0 0); } 62%, 100% { clip-path: inset(0 0 0 0); } }
-      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      @keyframes pulse { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.05); } }
-      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-      @keyframes scan { from { transform: translateY(-90px); opacity: 0; } 20%, 80% { opacity: .16; } to { transform: translateY(390px); opacity: 0; } }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .title { fill: #F8FAFC; font-size: 64px; font-weight: 800; letter-spacing: 0; }
+      .subtitle { fill: #CBD5E1; font-size: 25px; letter-spacing: 0; }
+      .label { fill: #94A3B8; font-size: 17px; letter-spacing: 0; }
+      .tag { fill: #E2E8F0; font-size: 16px; letter-spacing: 0; }
     </style>
   </defs>
 
-  <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
-  <rect x="22" y="22" width="1156" height="376" rx="26" stroke="#334155" stroke-width="2"/>
-  <rect class="scan" x="22" y="22" width="1156" height="90" fill="#FFFFFF"/>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="252" rx="22" stroke="#263244" stroke-width="2"/>
 
-  <g opacity="0.35">
-    <path d="M100 332C238 240 324 290 424 206C543 106 690 112 816 178C906 225 973 196 1100 92" stroke="url(#line)" stroke-width="2"/>
-    <path d="M80 288C230 210 332 242 454 166C579 88 705 93 840 134C946 167 1018 138 1132 70" stroke="#38BDF8" stroke-width="1"/>
+  <g opacity="0.16">
+    <path d="M716 232C777 184 834 198 887 151C943 101 997 101 1088 69" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M735 91C795 127 847 100 898 134C955 172 1008 153 1088 211" stroke="#38BDF8" stroke-width="2"/>
+    <path d="M775 226L835 166L900 190L959 116L1056 86" stroke="#A7F3D0" stroke-width="2"/>
   </g>
 
-  <g class="float" filter="url(#glow)">
-    <circle cx="985" cy="95" r="42" fill="#0E7490" opacity="0.28"/>
-    <circle cx="1032" cy="143" r="28" fill="#14B8A6" opacity="0.32"/>
-    <circle cx="927" cy="156" r="22" fill="#F59E0B" opacity="0.22"/>
+  <g>
+    <circle cx="716" cy="232" r="6" fill="#38BDF8"/>
+    <circle cx="835" cy="166" r="6" fill="#34D399"/>
+    <circle cx="900" cy="190" r="6" fill="#FBBF24"/>
+    <circle cx="959" cy="116" r="6" fill="#38BDF8"/>
+    <circle cx="1056" cy="86" r="6" fill="#34D399"/>
+    <circle cx="1088" cy="211" r="6" fill="#FBBF24"/>
   </g>
 
-  <g transform="translate(74 70)">
-    <rect width="680" height="250" rx="18" fill="#020617" opacity="0.92" stroke="#1E293B"/>
-    <circle cx="34" cy="31" r="7" fill="#F87171"/>
-    <circle cx="58" cy="31" r="7" fill="#FBBF24"/>
-    <circle cx="82" cy="31" r="7" fill="#34D399"/>
-
-    <text class="mono dim" x="34" y="78" font-size="20">$ whoami</text>
-    <text class="mono bright type1" x="34" y="112" font-size="28">Yousef Abdelhadi</text>
-
-    <text class="mono dim" x="34" y="157" font-size="20">$ build --focus</text>
-    <text class="mono mint type2" x="34" y="191" font-size="25">ML systems | infra tooling | computer vision</text>
-
-    <text class="mono dim" x="34" y="236" font-size="20">$ ship --proof</text>
-    <text class="mono amber type3" x="34" y="270" font-size="25">systems with measurable behavior, not demos</text>
-    <rect class="cursor" x="638" y="248" width="13" height="28" fill="#A7F3D0"/>
+  <g transform="translate(78 76)">
+    <text class="sans title" x="0" y="0" dominant-baseline="hanging">Yousef Abdelhadi</text>
+    <text class="sans subtitle" x="2" y="86">ML systems, infrastructure, and full-stack developer</text>
+    <text class="mono label" x="2" y="136">building practical software close to real workflows</text>
   </g>
 
-  <g transform="translate(812 104)">
-    <text class="sans bright" x="0" y="0" font-size="52" font-weight="800">Builds that</text>
-    <text class="sans bright" x="0" y="58" font-size="52" font-weight="800">touch real</text>
-    <text class="sans cyan" x="0" y="116" font-size="52" font-weight="800">systems.</text>
-    <text class="sans dim" x="0" y="170" font-size="22">Python / TypeScript / C++ / CUDA / Go</text>
-  </g>
-
-  <g transform="translate(816 310)">
-    <rect class="pulse" x="0" y="0" width="92" height="34" rx="17" fill="#0F766E" opacity="0.7"/>
-    <rect class="pulse" x="108" y="0" width="126" height="34" rx="17" fill="#0369A1" opacity="0.7"/>
-    <rect class="pulse" x="250" y="0" width="126" height="34" rx="17" fill="#A16207" opacity="0.7"/>
-    <text class="mono bright" x="25" y="23" font-size="15">ml</text>
-    <text class="mono bright" x="147" y="23" font-size="15">infra</text>
-    <text class="mono bright" x="281" y="23" font-size="15">vision</text>
+  <g transform="translate(80 225)">
+    <rect x="0" y="-28" width="115" height="36" rx="18" fill="#14213A" stroke="#263244"/>
+    <rect x="128" y="-28" width="128" height="36" rx="18" fill="#12312F" stroke="#263244"/>
+    <rect x="269" y="-28" width="154" height="36" rx="18" fill="#2B2412" stroke="#263244"/>
+    <rect x="436" y="-28" width="126" height="36" rx="18" fill="#1B2436" stroke="#263244"/>
+    <text class="sans tag" x="28" y="-4">Python</text>
+    <text class="sans tag" x="154" y="-4">TypeScript</text>
+    <text class="sans tag" x="295" y="-4">Computer Vision</text>
+    <text class="sans tag" x="464" y="-4">Systems</text>
   </g>
 </svg>
